@@ -26,6 +26,8 @@ else if ("marks<33") {
 
 //switch statement
 //converting the previous if-else example with switch-case
+
+var light="green";
 switch(light) {
     case 'green':
         console.log("Drive");
