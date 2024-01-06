@@ -4,7 +4,49 @@ for (var i=1;i<=8;i++) {
     console.log(i)
 }
 
-//another one 
-for (var p=100;p<=1001;p++) {
-    console.log(p)
+//while loop
+
+var counter=2
+
+while (counter>0) {
+    console.log(counter);
+    counter=counter -1;
+}
+
+//task1
+for (var i=1;i<=5;i++) {
+    console.log (i)
+}
+
+console.log("coounting completed!")
+
+//task 2
+
+for (i=5;i>=1;i--) {
+    console.log (i)
+}
+
+console.log ("countdown finished!")
+
+//task 3
+var i=1;
+while (i< 6) {
+    console.log(i);
+    i++;
+}
+console.log('counting completed');
+
+//task 4
+var i = 5;
+while (i > 0) {
+    console.log(i);
+    i = i - 1;
+};
+console.log('Counting completed!');
+
+//task 5
+var year=2018;
+while (year<2023) {
+    console.log(year);
+    year++;
 }
