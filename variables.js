@@ -26,3 +26,12 @@ var catSound="meow"
 
 console.log(petCat, "now says", catSound)
 
+//var,let,const
+
+let age=22;
+
+age =21;
+
+const name="Asim Khan"
+
+name="khan";
