@@ -12,4 +12,9 @@ console.log(PM,"Length of the array is", PM.length)
 
 console.log(PM[2]) //strings are not mutable/ immutable
 
-//
+//Looping over array
+
+let cities=["Khanewal","Kabirwala","Jahanian","Mianchannu"]
+for (let i=0;i<cities.length;i++) {
+    console.log (i, cities[i])
+}
