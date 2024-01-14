@@ -30,3 +30,27 @@ let avg=sum/mark.length;
 
 console.log ('average marks are =',avg);
 
+//Unshift and Push -- Unshift is used to add value in the start and Push is used to add value in the end and 
+let companies=["Amazon","Google","IBM"]
+
+companies.unshift("Coursera")
+companies.push("Microsoft")
+
+console.log(companies)
+
+//shift and pop --shift is used to delete index 0 in the start in the array and pop is used to delete the last value in the array
+let province=['Punjab','Balochistan','Sindh','KPK']
+province.shift()
+province.pop()
+
+console.log(province)
+
+
+//splice --It is used to delete the element from the array
+
+let bigbull=[ 'Coursera', 'Amazon', 'Google', 'IBM', 'Microsoft' ]
+
+bigbull.splice(1,1,'Ali Baba')
+console.log (bigbull)
+
+
