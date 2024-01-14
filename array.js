@@ -18,3 +18,15 @@ let cities=["Khanewal","Kabirwala","Jahanian","Mianchannu"]
 for (let i=0;i<cities.length;i++) {
     console.log (i, cities[i])
 }
+
+// Getting Average
+
+let mark=[22,44,39,55,22,44,55]
+let sum=0;
+for (let val of mark) {
+    sum += val;
+}
+let avg=sum/mark.length;
+
+console.log ('average marks are =',avg);
+
