@@ -40,3 +40,24 @@ favCar.convertible = true;
 
 console.log(favCar)
 
+//Adding Object 
+var car={};
+
+car.model=2015;
+car.registration='Punjab';
+car.color='white';
+car.mileage=1200;
+
+console.log(car);
+
+car.turnthekey= function(){
+    console.log("The engine is started")
+}
+
+car.turnligthson= function(){
+    console.log("The lights are on");
+}
+
+console.log(car)
+car.turnthekey()
+car.turnligthson()
