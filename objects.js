@@ -20,3 +20,23 @@ drone.push('Khyber Agency')
 console.log(drone)
 drone.pop()
 console.log(drone)
+
+//Task
+var clothes=[]
+
+clothes.push("T-Shirt","Dress Pant","Dress Shirt","Hoodie","Winter Jackets")
+
+console.log(clothes)
+
+clothes.pop()
+clothes.push("Tie")
+
+console.log(clothes[4])
+
+var favCar= {};
+
+favCar.color = 'red';
+favCar.convertible = true;
+
+console.log(favCar)
+
