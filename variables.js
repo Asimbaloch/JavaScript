@@ -32,6 +32,6 @@ let age=22;
 
 age =21;
 
-const name="Asim Khan"
 
-name="khan";
+Variables
+
