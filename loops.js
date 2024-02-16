@@ -1,7 +1,17 @@
 //for loop
+//counter
 
-for (var i=1;i<=8;i++) {
-    console.log(i)
+for (i=99;i<=200;i++) {
+    console.log (i)
+    
+}
+console.log ('the counter is finished')
+
+//while loop
+let g=3;
+while (g<=30) {
+    console.log(g)
+   g=g+1
 }
 
 //while loop

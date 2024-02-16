@@ -1,13 +1,27 @@
 //Conditional statements -- Vote
-let age =15;
+//if else
 
-if (age>=19) {
-    console.log(' You are eligible for vote.')
+var age=19;
+if (age>=18) {
+    console.log ('You are eligible to vote.')
 }
-
 else {
-    console.log('You can not vote.')
+    console.log ('You are not eligible for vote.')
 }
+
+//if, else if
+
+let position='first';
+
+if (position==='first') {
+    console.log ('Gold')
+}
+else if (position==='second') {
+    console.log('Bronze')
+}
+
+else { console.log('No Medal')}
+
 
 //Odd or Even 
 
@@ -35,3 +49,18 @@ else {
 };
 
 console.log(color)
+
+//Switch Statement
+
+let winner='first';
+
+switch(winner) {
+    case 'first': console.log('Gold Medal');
+    break;
+    case 'second':console.log('Bronze Medal');
+    break;
+    case 'third' :console.log('Silver Medal')
+    break;
+     
+    default: console.log('you participated in the game. Thanks')
+}

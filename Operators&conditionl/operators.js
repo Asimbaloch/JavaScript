@@ -42,3 +42,34 @@ console.log(g)
 
 console.log (g != h)
 
+let asim= 55;
+if (asim % 5===0) {
+    console.log('It is the multiple of 5')
+}
+else {
+    console.log('It is not the multiple of 5')
+}
+
+//Grade Program
+
+let marks=100;
+
+if (marks>=80 && marks <=100) {
+    console.log ('Grade is A')
+}
+
+else if (marks>=70 && marks <80) {
+    console.log ('Grade is B')
+}
+
+else if (marks>=60 && marks <70) {
+    console.log ('Grade is C')
+}
+
+else if (marks >=50 && marks <60) {
+    console.log ('Grade is D')
+}
+
+else {
+    console.log ('Grade is F')
+}
