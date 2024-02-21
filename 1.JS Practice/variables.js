@@ -13,3 +13,13 @@ console.log(`My GPA is ${myGpa}`)
 console.log(typeof myGpa)
 console.log(typeof online)
 
+
+let check=33;
+
+if (condition) {
+    
+}
+
+function name(params) {
+    
+}
