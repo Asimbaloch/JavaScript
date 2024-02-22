@@ -14,5 +14,4 @@ function userMessage(userName) {
     console.log(`How are you ${userName}`);
    }
 } 
-let userPopup= userMessage()
-console.log(userPopup);
+console.log(userMessage());
