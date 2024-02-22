@@ -1,3 +1,4 @@
+/*
 const mysym= Symbol('key1')
 
 const webUser= {
@@ -41,3 +42,12 @@ const userDisplay = {
 }
 
 console.log(userDisplay.display());
+
+*/
+
+const classResult= {}
+
+classResult.fullname= 'Computer Science'
+
+console.log(classResult);
+
