@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color:rgb(107, 107, 192);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+
+.box img {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.box h1{
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.box h4 {
+    padding: 5px;
+}
+
+.box button {
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 3px;
+}
