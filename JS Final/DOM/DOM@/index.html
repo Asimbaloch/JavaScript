@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+
+    <style>
+        .box {
+            height: 60px;
+            width: 60px;
+            border: 3px solid white;
+            padding: 30px;
+            margin: 10px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 4</div>
+    </div>
+
+    <button id="submit">submit</button>
+
+    <script>
+        let btn= document.querySelector('#submit');
+        btn.addEventListener('click', ()=> {
+            console.log('Give me sunshine!')
+        })
+
+        document.querySelector('.box').
+
+        // let div=document.createElement('div')
+        // div.setAttribute('class','newdiv')
+        // div.innerText='I am checking the text right now.'
+        // document.querySelector('.container').before('div')
+
+        // let boxes=document.getElementsByClassName('box')
+        // boxes[3].style.backgroundColor='red'
+        
+
+        document.querySelector('body').style.backgroundColor = 'lightgreen'
+        
+        document.querySelectorAll('.box').forEach(e => {
+            e.style.backgroundColor= 'green'
+        })
+
+    </script>
+</body>
+</html>
